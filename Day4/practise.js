@@ -44,6 +44,7 @@ let z2= () => console.log("irshad")
 z2()
 
 // Write a function to add two number and print a result
+
 function add(a,b) //Normal Function
 {
     console.log(a+b)
