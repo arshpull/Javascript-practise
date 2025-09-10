@@ -12,7 +12,7 @@ division_fun2(20,10)
 let division_fun3=(a,b) => console.log(a/b) //Arrow Function
 division_fun3(20,10);
 
-//IIFE(Imediate Invoke Function Expression)
+//IIFE(Immediate Invoke Function Expression)
 (function(){
     console.log("Hi!")
 })();
