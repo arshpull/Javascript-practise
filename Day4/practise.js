@@ -58,5 +58,27 @@ add1(2,3)
 
 let add3 = (a,b) => console.log(a+b) // Arrow function
 add3(2,3)
+let n=23.54
+console.log(n.toPrecision(2))
+console.log(n.toString(2))
+ // switch case
+ //WAF to print day of the week based on the number of week startig monday as 1 tuesday as 2.
+function day(val){
+ switch(val){
+    case 1: console.log("Monday"); break;
+    case 2: console.log("Tuesday"); break;
+    case 3: console.log("Wednesday"); break;
+    case 4: console.log("Thursday"); break;
+    case 5: console.log("Friday"); break;
+    case 6: console.log("Saturday"); break;
+    default: console.log("Sunday");
+}
+}
+day(6)
 
-
+// While loop
+let i =0;
+while(i<=10){
+    console.log(i);
+    i++;
+}

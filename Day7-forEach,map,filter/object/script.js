@@ -5,4 +5,4 @@ let s={
     contact:"8303073689"
 }
 console.log(s.contact)// dot notation to print something 
-console.log(s['contact'])// index notation to print something from object
+console.log(s['contact'])// index signature to print something from object
