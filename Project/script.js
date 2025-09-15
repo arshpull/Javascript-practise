@@ -17,3 +17,13 @@ function change(){
     const cPick= Math.floor(Math.random()*100000000).toString(16)
     document.body.style.backgroundColor= "#"+cPick;
 }
+const inp=document.getElementById('inp')
+function inputChange(){
+    document.getElementsByClassName('btn')[0].style.backgroundColor= inp.value
+    document.getElementsByClassName('btn')[1].style.backgroundColor= inp.value
+    document.getElementsByClassName('btn')[2].style.backgroundColor= inp.value
+    
+}
+function darkMode(){
+    document.body.classList.add("dark")
+}

@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button>abliuab</button>
+    <button id="changeMode" onclick="darkMode()">Dark mode</button>
     <button onclick="change()" id="change">Color</button>
     <div class="upperButton">
-        <input type="text" placeholder="Enter a color">
-        <button onclick="">Button Color changer</button>
+        <input type="text" id="inp" placeholder="Enter a color">
+        <button onclick="inputChange()">Button Color changer</button>
     </div>
     <div id="counter">
         <p id="count">0</p>
         <div class="buttons">
-            <button onclick="incr()">+</button>
-            <button onclick="decr()">-</button>
-            <button onclick="reset()">Reset</button>
+            <button onclick="incr()" class="btn">+</button>
+            <button onclick="decr()" class="btn">-</button>
+            <button onclick="reset()" class="btn">Reset</button>
         </div>
     </div>
 
