@@ -1,0 +1,25 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    max-width: 1280PX;
+    margin: auto;
+    gap: 20px;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px black;
+    padding: 20px;
+    border: none;
+
+}
+.movie>button{
+    padding: 12px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    border: none;
+    box-shadow: 1px 1px 4px rgb(255, 5, 5);
+    border-radius: 20px;
+}
