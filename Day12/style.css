@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center ; */
+    align-items: center;
+    gap: 20px;
+    background-image: url(./45988920-a96c-11ed-bb7e-d4c44f26d91d.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+body>h1{
+    font-size: 72px;
+}
+body>p{
+    font-size: 52px;
+}
+#taskInput{
+    padding: 20px 100px;
+    font-size: 32px;
+    font-weight: 900;
+    background: transparent;
+    box-shadow: 1px 1px 30px white;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+#input>button{
+    padding: 10px 50px;
+    font-weight: 900;
+    font-size: 22px;
+    background-color: rgb(224, 149, 149);
+    color: aliceblue;
+    background: transparent;
+    box-shadow: 1px 1px 30px white;
+    border: none;
+    border-radius: 20px;
+
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.task>p{
+    padding: 20px 100px;
+    font-size: 32px;
+    font-weight: 900;
+    /* background: transparent; */
+    box-shadow: 1px 1px 30px white;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    flex-wrap: wrap;
+}
+.task>button{
+     padding: 22px 50px;
+    font-weight: 900;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    /* background: transparent; */
+    box-shadow: 1px 1px 30px white;
+    border: none;
+    border-radius: 20px;
+}
