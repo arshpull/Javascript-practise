@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#gp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
