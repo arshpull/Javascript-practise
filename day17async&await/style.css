@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mix{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+#mix input{
+     padding: 12px 40px;
+    width: max-content;
+    align-self: center;
+    border-radius: 20px;
+    /* background-color: rgb(35, 85, 85);     */
+    color: aliceblue;
+}
+#mix>button{
+     padding: 12px 40px;
+    width: max-content;
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgb(35, 85, 85);    
+    color: aliceblue;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 20px;
+}
+.bawalStyle>img{
+    height: 400px;
+    clip-path: circle();
+}
+.bawalStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    /* filter: drop-shadow(0px 10px 15px black); */
+    box-shadow: 0px 0px 15px black;
+
+}
+.bawalStyle>button{
+    padding: 12px 40px;
+    width: max-content;
+    align-self: center;
+    border-radius: 20px;
+    background-color: rgb(35, 85, 85);    
+    color: aliceblue;
+}
